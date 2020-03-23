@@ -31,3 +31,46 @@ transition: opacity .5s;
 .ex-4-square:hover {
 opacity: 0;
 }
+
+.ex-5-square {
+transition: transform .5s;
+}
+
+.ex-5-square:hover {
+transform: scale(1.5);
+}
+
+.ex-5-square:active {
+transform: scale(.5);
+}
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+.ex-7-img {
+  transition: filter .5s;
+}
+
+.ex-7-img:hover {
+  filter: sepia(.5) blur(10px);
+}
+
+.ex-8-img {
+  transition: filter .5s, border-radius .5s;
+}
+
+.ex-8-img:hover {
+  filter: sepia(.5) grayscale(.6);
+  border-radius: 20%;
+}
+
+.ex-9-img {
+  transition: filter .5s, border-radius .5s, transform .5s;
+}
+
+.ex-9-img:hover {
+  filter: sepia(.5) grayscale(.6);
+  border-radius: 20%;
+  transform: scale(.8);
+}
