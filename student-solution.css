@@ -89,7 +89,7 @@ transform: scale(.5);
   }
 }
 
-.ex-11-icon {
+.ex-11-icon:hover {
   animation: fu-spin-back 1s infinite linear;
 }
 
